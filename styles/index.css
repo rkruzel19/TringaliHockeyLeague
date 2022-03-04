@@ -1,0 +1,84 @@
+body{
+    background-color: lightgreen;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 200px; 
+}
+
+.banner-pic{
+    flex: 33.33%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav{
+    justify-content: center;
+    display: flex;
+}
+
+.nav-item{
+    margin: 20px;
+    font-size: x-large;
+}
+
+.were-back{
+    text-align: center;
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+}
+.game-wrapper{
+    display: flex;
+}
+.game-block{
+    width: 33.33%;
+    border-style: solid;
+    margin: 10px;
+    padding: 5px;
+}
+
+.game-block p{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.reasons{
+    display: flex;
+}
+
+.block li{
+    list-style-type: disclosure-closed;
+}
+
+.block{
+    width: 33.33%;
+}
+
+.block p{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.our-goal{
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+footer{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    color: white;
+}
