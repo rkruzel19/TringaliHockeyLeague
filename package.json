@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm start"
+    "start": "http-server"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/rkruzel19/TringaliHockeyLeague/issues"
   },
-  "homepage": "https://github.com/rkruzel19/TringaliHockeyLeague#readme"
+  "homepage": "https://github.com/rkruzel19/TringaliHockeyLeague#readme",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
 }
